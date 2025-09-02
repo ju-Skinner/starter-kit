@@ -44,13 +44,28 @@ const THEME = {
  * Fonts
  * @tutorial https://docs.symbols.app/font
  */
-const FONT = {}
+const FONT = {
+  Europa: [
+    {
+      url: require('./fonts/europa-regular-webfont.woff2'),
+      fontWeight: 400
+    }, {
+      url: require('./fonts/europa-bold-webfont.woff2'),
+      fontWeight: 700
+    }
+  ]
+}
 
 /**
  * Font families
  * @tutorial https://docs.symbols.app/font
  */
-const FONT_FAMILY = {}
+const FONT_FAMILY = {
+  Europa: {
+    value: '"Europa"',
+
+  }
+}
 
 /**
  * Typography
