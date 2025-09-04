@@ -1,5 +1,4 @@
 'use strict'
-
 export default {
   '/': {
     H1: { text: 'Hello Symbols' },
@@ -8,5 +7,11 @@ export default {
   '/about': {
     H3: { text: 'This is Symbols starter-kit' },
     P: { text: 'Lorem ipsum dolor sit amet' }
+  },
+  '/grid': {
+    extend: 'Layout',
+    GridSelection: {
+      props: { rows: 8, cols: 14}
+    }
   }
 }
