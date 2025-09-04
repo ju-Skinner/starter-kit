@@ -1,6 +1,7 @@
 'use strict'
 
-import { Flex, Link } from 'smbls'
+import { Flex, Link} from 'smbls'
+export { GridSelection } from './gridSelection'
 
 export const Header = {
   extend: Flex,
@@ -19,7 +20,8 @@ export const Header = {
       })
     },
     Text_logo: { href: '/', text: 'Hello!' },
-    Text_about: { href: '/about', text: 'About' }
+    Text_about: { href: '/about', text: 'About' },
+    Text_grid: { href: '/grid', text: 'Custom Grid'}
   },
 
   ThemeSwitcher: {}
